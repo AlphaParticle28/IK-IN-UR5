@@ -5,6 +5,14 @@ In a nutshell, the project required me to write a python code for determining th
 
 The code was then saved as a '.csv' file which was later called in a custom-made scene in CoppeliaSim simulator, which displayed the simulation of the UR5 manipulator adhering to the given transformation conditions within 5 iterations.
 
+In order to make sure my algorithm is consistent with the theory, here is a snippet from the book "Modern Robotics: Mechanics, Planning, and Control" by the course instructors Prof.Kevin Lynch and Prof.Frank Park
+
+![image](https://github.com/AlphaParticle28/IK-IN-UR5/assets/154257982/81ab6157-3dce-40aa-b89a-b9dece34bff2)
+![image](https://github.com/AlphaParticle28/IK-IN-UR5/assets/154257982/02b863eb-b51c-46b5-b67f-e7292b20a5bb)
+![image](https://github.com/AlphaParticle28/IK-IN-UR5/assets/154257982/73b712f8-2d42-4ab5-8712-cca0513fe83f)
+
+The code for the same is here as follows:
+
     import numpy as np
     import modern_robotics as mr
     import csv
