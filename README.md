@@ -4,7 +4,6 @@ As a part of my recent course project of modern robotics specialization offered 
 In a nutshell, the project required me to write a python code for determining the possibility of the existence of an inverse kinematic(IK) solution for a given initial configuration of the robotic manipulator using the Newton-Rhapson method to determine the final error term in the configuration, which tests positive for IK, if it lies below a certain upper limit. 
 
 The code was then saved as a '.csv' file which was later called in a custom-made scene in CoppeliaSim simulator, which displayed the simulation of the UR5 manipulator adhering to the given transformation conditions within 5 iterations.
-`
 
     import numpy as np
     import modern_robotics as mr
@@ -80,4 +79,4 @@ The code was then saved as a '.csv' file which was later called in a custom-made
     with open('iterates.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         for i, theta in enumerate(theta_iterations):
-            writer.writerow(theta)`
+            writer.writerow(theta)
