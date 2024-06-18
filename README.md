@@ -79,6 +79,7 @@ The code for the same is as follows:
     L1 = 0.425
     L2 = 0.392
     """Values of the above mentioned values are in metres(m)"""
+    
     B = np.array([[0, 1, 0, W1 + W1, 0, L1 + L2], [0, 0, 1, H2, -(L1 + L2), 0], [0, 0, 1, H2, -L2, 0],
                  [0, 0, 1, H2, 0, 0], [0, -1, 0, -W2, 0, 0], [0, 0, 1, 0, 0, 0]]).T
 
@@ -86,11 +87,13 @@ The code for the same is as follows:
 
     theta_0 = np.array([0, -np.pi / 2 + 0.85, np.pi / 2, 0, np.pi / 2, 0 + 0.10248])
     """Found the fitting value of Theta_0 using trial and error"""
+    
     Tsd = np.array([[0, 1, 0, -0.5], [0, 0, -1, 0.1], [-1, 0, 0, 0.1], [0, 0, 0, 1]])
     e_omega = 0.001
     e_v = 0.0001
 
     theta_list, ik_possible, theta_iterations = IKinBodyIterates(B, M, theta_0, Tsd, e_omega, e_v)
+    
     """Check for feasibility for the guessed values of Theta_0"""
     if ik_possible:
         print("IK solution found")
