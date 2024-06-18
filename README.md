@@ -98,6 +98,7 @@ Following is the output provided by the code, affirming the existence of an IK s
 ![image](https://github.com/AlphaParticle28/IK-IN-UR5/assets/154257982/dcd85739-ed82-4c48-8b67-e2b1f908f76b)
 
 Output produced as a .csv file. 
+
 Note: The ith column corresponds to the ith joint angle configuration. The jth row represents the jth joint configuration. (i and j ranges from 1 to 5)
 
 ![image](https://github.com/AlphaParticle28/IK-IN-UR5/assets/154257982/0b649ed0-1fcd-4b82-a8cf-f129bcba5d1a)
