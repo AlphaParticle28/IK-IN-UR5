@@ -13,7 +13,7 @@ In order to make sure my algorithm is consistent with the theory, here are a few
 
 ![image](https://github.com/AlphaParticle28/IK-IN-UR5/assets/154257982/73b712f8-2d42-4ab5-8712-cca0513fe83f)
 
-The code for the same is here as follows:
+The code for the same is as follows:
 
     import numpy as np
     import modern_robotics as mr
