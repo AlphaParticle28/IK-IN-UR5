@@ -1,4 +1,4 @@
-# IK-IN-UR5
+# MODERN ROBOTICS PROJECTS
 As a part of my recent course project of modern robotics specialization offered by Coursera I had to apply concepts revolving around forward kinematics into the simulation of inverse kinematics, which involved writing the python code for displaying the feasibility of inverse kinematics for a given configuration of UR5 manipulator.
 
 In a nutshell, the project required me to write a python code for determining the possibility of the existence of an inverse kinematic(IK) solution for a given initial configuration of the robotic manipulator using the Newton-Rhapson method to determine the final error term in the configuration, which tests positive for IK, if it lies below a certain upper limit. 
