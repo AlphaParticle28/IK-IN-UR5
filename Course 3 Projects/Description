@@ -1,0 +1,9 @@
+Similar to what was done in the course 2 project, the problem statement of the project in course 3 was provided with:
+1] Configuration matrices of each link along with the orientation of the end effector
+2] Spatial inertial matrix of each link
+3] Screw axis matrix
+
+The task being to simulate the behaviour of the manipulator when subjected to free fall with different initial 
+configurations of the manipulator utilizing the `modern_robotics` library in python following the forward dynamics model.
+
+In the end, a .csv file should also be produced, which consists a list of joint angle configurations at every iteration.
